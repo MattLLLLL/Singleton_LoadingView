@@ -13,6 +13,7 @@
 		C9C8356927BE867A0083F9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C8356727BE867A0083F9B5 /* Main.storyboard */; };
 		C9C8356B27BE867B0083F9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C8356A27BE867B0083F9B5 /* Assets.xcassets */; };
 		C9C8356E27BE867B0083F9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C8356C27BE867B0083F9B5 /* LaunchScreen.storyboard */; };
+		C9C8357627BE868F0083F9B5 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C8357527BE868F0083F9B5 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C9C8356A27BE867B0083F9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C8356D27BE867B0083F9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9C8356F27BE867B0083F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C8357527BE868F0083F9B5 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C9C8356127BE86790083F9B5 /* AppDelegate.swift */,
 				C9C8356327BE86790083F9B5 /* SceneDelegate.swift */,
 				C9C8356527BE86790083F9B5 /* ViewController.swift */,
+				C9C8357527BE868F0083F9B5 /* Singleton.swift */,
 				C9C8356727BE867A0083F9B5 /* Main.storyboard */,
 				C9C8356A27BE867B0083F9B5 /* Assets.xcassets */,
 				C9C8356C27BE867B0083F9B5 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C8356627BE867A0083F9B5 /* ViewController.swift in Sources */,
+				C9C8357627BE868F0083F9B5 /* Singleton.swift in Sources */,
 				C9C8356227BE86790083F9B5 /* AppDelegate.swift in Sources */,
 				C9C8356427BE86790083F9B5 /* SceneDelegate.swift in Sources */,
 			);

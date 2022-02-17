@@ -11,8 +11,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Singleton.shared.show(self.view)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            Singleton.shared.dismiss()
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+            Singleton.shared.show(self.view)
+        }
     }
+    
+    
 
 
 }
